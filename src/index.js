@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import App from './components/App';
@@ -18,17 +17,15 @@ const categories = [
   'Learning',
   'Sci-Fi',
 ];
-store.dispatch(
-  createBook({ title: 'Think and Grow Rich', category: categories[5] })
-);
+store.dispatch(createBook({ title: 'React', category: categories[5] }));
 store.dispatch(createBook({ title: 'O`tkan Kunlar', category: categories[1] }));
 store.dispatch(createBook({ title: 'Little Prince', category: categories[4] }));
 
-ReactDOM.render(
+const MainApp = () => (
   <React.StrictMode>
     <Provider store={store}>
       <App />
     </Provider>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
+ReactDOM.render(<MainApp />, document.getElementById('root'));

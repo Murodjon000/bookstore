@@ -28,7 +28,7 @@ const BookList = ({ books, removeBook }) => (
 );
 
 BookList.propTypes = {
-  books: PropTypes.array,
+  books: PropTypes.arrayOf(PropTypes.instanceOf(Object)),
   removeBook: PropTypes.func,
 };
 

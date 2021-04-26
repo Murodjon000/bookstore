@@ -44,7 +44,7 @@ class BooksForm extends Component {
   }
 
   render() {
-    const CATEGORY = [
+    const categories = [
       'Action',
       'Biography',
       'History',
@@ -66,8 +66,8 @@ class BooksForm extends Component {
             value={title}
           />
           <select name="category" value={category} onChange={this.handleChange}>
-            {CATEGORY.map((item, index) => (
-              <option value={item} key={index}>
+            {categories.map((item) => (
+              <option value={item} key={item}>
                 {item}
               </option>
             ))}
