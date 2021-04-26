@@ -5,7 +5,7 @@
 
 ## Live Demo
 
-- [live-version](https://guarded-savannah-56728.herokuapp.com/)
+- [Bookstore](https://infinite-basin-78643.herokuapp.com/)
 
 ## Built with
 
