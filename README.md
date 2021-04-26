@@ -1,7 +1,7 @@
 # Bookstore App
 
 
-- This is React calculator app which was built fully using JavaScript and JSX.In this app, you can do your calculations very easily and fastly.
+- This is React Bookstore app which was built fully using JavaScript and JSX.In this app, you can add books to bookstore very easily and fastly.
 
 ## Live Demo
 
