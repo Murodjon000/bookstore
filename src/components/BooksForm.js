@@ -87,4 +87,8 @@ BooksForm.propTypes = {
   createBook: PropTypes.func,
 };
 
+BooksForm.defaultProps = {
+  createBook: null,
+};
+
 export default BooksForm;
