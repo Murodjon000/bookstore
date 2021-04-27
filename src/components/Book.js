@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Book = ({ id, title, category, removeBook }) => ( // eslint-disable-line
+const Book = (
+  { id, title, category, handleRemoveBook } // eslint-disable-line
+) => (
   <tr>
     <td>{id}</td>
     <td>{title}</td>
     <td>{category}</td>
     <td>
-      <button type="button" onClick={() => removeBook(id)}>
+      <button type="button" onClick={() => handleRemoveBook(id)}>
         Remove
       </button>
     </td>
@@ -18,14 +20,14 @@ Book.propTypes = {
   id: PropTypes.string,
   title: PropTypes.string,
   category: PropTypes.string,
-  removeBook: PropTypes.func,
+  handleRemoveBook: PropTypes.func,
 };
 
 Book.defaultProps = {
   id: null,
   title: '',
   category: '',
-  removeBook: null,
+  handleRemoveBook: null,
 };
 
 export default Book;
