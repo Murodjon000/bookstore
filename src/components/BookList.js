@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import BookContainer from '../containers/BookContainer';
 
-const BookList = ({ books, removeBook }) => (
+const BookList = ({ books, handleRemoveBook }) => (
   <div>
     <table>
       <thead>
@@ -20,7 +20,7 @@ const BookList = ({ books, removeBook }) => (
             title={book.title}
             category={book.category}
             key={book.id}
-            removeBook={removeBook}
+            handleRemoveBook={handleRemoveBook}
           />
         ))}
       </tbody>
@@ -30,12 +30,12 @@ const BookList = ({ books, removeBook }) => (
 
 BookList.propTypes = {
   books: PropTypes.arrayOf(PropTypes.instanceOf(Object)),
-  removeBook: PropTypes.func,
+  handleRemoveBook: PropTypes.func,
 };
 
 BookList.defaultProps = {
   books: [],
-  removeBook: null,
+  handleRemoveBook: null,
 };
 
 export default BookList;
