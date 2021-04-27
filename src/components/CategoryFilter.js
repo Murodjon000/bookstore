@@ -1,6 +1,6 @@
 import React from 'react';
-import category from '../helper/category';
 import PropTypes from 'prop-types';
+import category from '../helper/category';
 
 const CategoryFilter = ({ filter, handleFilterChange }) => {
   const categories = ['All', ...category];
@@ -24,6 +24,11 @@ const CategoryFilter = ({ filter, handleFilterChange }) => {
 CategoryFilter.propTypes = {
   filter: PropTypes.string,
   handleFilterChange: PropTypes.func,
+};
+
+CategoryFilter.defaultProps = {
+  filter: 'All',
+  handleFilterChange: null,
 };
 
 export default CategoryFilter;

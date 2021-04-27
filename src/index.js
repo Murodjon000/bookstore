@@ -5,7 +5,7 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import App from './components/App';
 import rootReducer from './reducers';
-import { createBook, filterBook } from './actions';
+import { createBook } from './actions';
 import categories from './helper/category';
 
 const store = createStore(rootReducer);

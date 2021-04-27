@@ -1,7 +1,6 @@
 import { connect } from 'react-redux';
-import { removeBook } from '../actions/index';
+import { removeBook, filterBook } from '../actions/index';
 import BookList from '../components/BookList';
-import { filterBook } from '../actions/index';
 
 const getBooks = (books, filter) => {
   if (filter === 'All') {
