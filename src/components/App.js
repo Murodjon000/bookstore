@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
+import BookListContainer from '../containers/BookListContainer';
+import BooksFormContainer from '../containers/BooksFormContainer';
 
-
-const  App = () => {
-  return (
-    <div className="App">
-     <h1>Hello World</h1>
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <BookListContainer />
+    <BooksFormContainer />
+  </div>
+);
 
 export default App;
