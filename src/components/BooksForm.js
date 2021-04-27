@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import categories from '../helper/category';
 
 class BooksForm extends Component {
   constructor(props) {
@@ -44,16 +45,6 @@ class BooksForm extends Component {
   }
 
   render() {
-    const categories = [
-      'Action',
-      'Biography',
-      'History',
-      'Horror',
-      'Kids',
-      'Learning',
-      'Sci-Fi',
-    ];
-
     const { title, category } = this.state;
     return (
       <div>
