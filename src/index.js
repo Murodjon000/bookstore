@@ -10,24 +10,17 @@ import Routes from './Routes/Routes';
 
 const store = createStore(rootReducer);
 
+// eslint-disable-all
 store.dispatch(
-  createBook({
-    title: 'Between two doors',
-    category: categories[1],
-  })
+  createBook({ title: 'Between two doors', category: categories[1] })
 );
 store.dispatch(
-  createBook({
-    title: 'Life spent in a dream',
-    category: categories[5],
-  })
+  createBook({ title: 'Life spent in a dream', category: categories[5] })
 );
 store.dispatch(
-  createBook({
-    title: 'Spring Passed By',
-    category: categories[2],
-  })
+  createBook({ title: 'Spring Passed By', category: categories[2] })
 );
+// eslint-enable-all
 
 const MainApp = () => (
   <React.StrictMode>

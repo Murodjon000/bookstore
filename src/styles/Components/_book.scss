@@ -34,8 +34,8 @@
       display: flex;
       margin-top: 21px;
 
-      & > p {
-        cursor: pointer;
+      & > button {
+        margin: 0;
       }
 
       & > * + * {
