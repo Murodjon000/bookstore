@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>user</title>
+    <g id="user" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#0290FF" fill-rule="nonzero" id="Shape">
+            <path d="M5,4.26315789 C5,6.61357895 6.90023529,8.52631579 9.23529412,8.52631579 C11.5703529,8.52631579 13.4705882,6.61357895 13.4705882,4.26315789 C13.4705882,1.91273684 11.5703529,0 9.23529412,0 C6.90023529,0 5,1.91273684 5,4.26315789 Z M17,18 L18,18 L18,16.9411765 C18,12.8551765 14.859,9.52941176 11,9.52941176 L7,9.52941176 C3.14,9.52941176 0,12.8551765 0,16.9411765 L0,18 L17,18 Z"></path>
+        </g>
+    </g>
+</svg>

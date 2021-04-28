@@ -1,0 +1,155 @@
+.books__container {
+  width: 100%;
+  padding: 23px 99px 27px 100px;
+}
+
+.book__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: $white;
+  padding: 32px 147px 26px 27px;
+  border-radius: 4px;
+  border: solid 1px $white-300;
+  margin-top: 15px;
+
+  &_left {
+    & > h3 {
+      font-family: $Montserrat;
+      font-size: 14px;
+      opacity: 0.5;
+    }
+
+    & > h2 {
+      font-family: $RobotoSlab;
+      font-size: 22px;
+      font-weight: bold;
+
+      @include normal-font;
+
+      letter-spacing: -0.2px;
+    }
+
+    &_bottom {
+      display: flex;
+      margin-top: 21px;
+
+      & > button {
+        margin: 0;
+      }
+
+      & > * + * {
+        padding-left: 15px;
+      }
+    }
+  }
+
+  &_right {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &-chart {
+      display: flex;
+      border-right: 1px solid $white-300;
+      padding-right: 3rem;
+
+      & > .chart-graph {
+        width: 68px;
+        height: 68px;
+        border-bottom: 10px solid $white-300;
+        border-right: 10px solid $white-300;
+        border-radius: 50%;
+        border-color: $white-300 #379cf6 #379cf6 $white-300;
+        border-style: solid;
+        border-width: 5px;
+      }
+
+      &-info {
+        margin-left: 12px;
+
+        & > h1 {
+          font-family: $Montserrat;
+          font-size: 32px;
+          font-weight: normal;
+
+          @include normal-font;
+
+          color: $black-200;
+        }
+
+        & > p {
+          opacity: 0.5;
+          font-family: $Montserrat;
+          font-size: 14px;
+          font-weight: normal;
+
+          @include normal-font;
+        }
+      }
+    }
+
+    &-info {
+      margin-left: 45px;
+
+      & > div {
+        opacity: 0.5;
+        font-family: $RobotoSlab;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 300;
+
+        @include normal-font;
+
+        color: $black-200;
+      }
+
+      & > h3 {
+        font-family: $RobotoSlab;
+        font-size: 16px;
+        font-weight: 300;
+
+        @include normal-font;
+
+        color: $black-200;
+      }
+
+      & > button {
+        margin-top: 23px;
+        font-family: $RobotoSlab;
+        font-size: 13px;
+        font-weight: 300;
+
+        @include normal-font;
+
+        text-align: center;
+        color: $white;
+      }
+    }
+  }
+}
+
+.text-link {
+  font-family: $RobotoSlab;
+  font-size: 14px;
+  font-weight: 300;
+
+  @include normal-font;
+
+  letter-spacing: normal;
+  color: $blue-200;
+}
+
+.line-border {
+  border: 1px solid $white-300;
+  width: 2px;
+  height: 24px;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.primary-btn {
+  padding: 7px 19px 8px 22px;
+  border-radius: 3px;
+  background-color: $azure;
+}

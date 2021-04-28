@@ -47,12 +47,14 @@ class BooksForm extends Component {
   render() {
     const { title, category } = this.state;
     return (
-      <div>
+      <div className="form__wrapper">
+        <hr className="form__wrapper-line" />
+        <h1>Add new book</h1>
         <form onSubmit={this.handleSubmit}>
           <input
             type="text"
             onChange={this.handleChange}
-            placeholder="Please fill book name."
+            placeholder="Book title"
             name="title"
             value={title}
           />
@@ -67,6 +69,7 @@ class BooksForm extends Component {
             type="submit"
             value="Create a book"
             disabled={this.isInValid}
+            className="primary-btn"
           />
         </form>
       </div>
