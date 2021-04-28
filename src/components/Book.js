@@ -10,13 +10,21 @@ const Book = (
       <h2>{title}</h2>
       <p className="text-link ">Utkir Khashimov </p>
       <div className="book__wrapper_left_bottom">
-        <button className="text-link ">Comments</button>
+        <button className="text-link " type="button">
+          Comments
+        </button>
         <span className="line-border" />
-        <button className="text-link" onClick={() => handleRemoveBook(id)}>
+        <button
+          className="text-link"
+          type="button"
+          onClick={() => handleRemoveBook(id)}
+        >
           Remove
         </button>
         <span className="line-border" />
-        <button className="text-link ">Edit</button>
+        <button className="text-link " type="button">
+          Edit
+        </button>
       </div>
     </div>
 

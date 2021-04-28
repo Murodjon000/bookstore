@@ -10,7 +10,8 @@ import Routes from './Routes/Routes';
 
 const store = createStore(rootReducer);
 
-// eslint-disable-all
+/* eslint-disable */
+
 store.dispatch(
   createBook({ title: 'Between two doors', category: categories[1] })
 );
@@ -20,7 +21,6 @@ store.dispatch(
 store.dispatch(
   createBook({ title: 'Spring Passed By', category: categories[2] })
 );
-// eslint-enable-all
 
 const MainApp = () => (
   <React.StrictMode>
