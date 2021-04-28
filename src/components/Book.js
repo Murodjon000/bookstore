@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import circle from '../assets/circle.svg';
 
 const Book = (
   { id, title, category, handleRemoveBook } // eslint-disable-line
@@ -12,11 +11,15 @@ const Book = (
       <p className="text-link ">Utkir Khashimov </p>
       <div className="book__wrapper_left_bottom">
         <p className="text-link ">Comments</p>
-        <span className="line-border"></span>
-        <p className="text-link" onClick={() => handleRemoveBook(id)}>
+        <span className="line-border" />
+        <p
+          className="text-link"
+          onKeyDown={() => handleRemoveBook(id)}
+          onClick={() => handleRemoveBook(id)}
+        >
           Remove
         </p>
-        <span className="line-border"></span>
+        <span className="line-border" />
         <p className="text-link ">Edit</p>
       </div>
     </div>
