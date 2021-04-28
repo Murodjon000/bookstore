@@ -1,7 +1,8 @@
 # Bookstore App
 
+![Bookstore](./image.png)
 
-- This is React Bookstore app which was built fully using JavaScript and JSX.In this app, you can add books to bookstore very easily and fastly.
+- This is React Bookstore app which was built fully using JavaScript and JSX.In this app, you can add and search books from bookstore very easily.
 
 ## Live Demo
 
