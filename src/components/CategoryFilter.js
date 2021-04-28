@@ -5,7 +5,7 @@ import category from '../helper/category';
 const CategoryFilter = ({ filter, handleFilterChange }) => {
   const categories = ['All', ...category];
   return (
-    <div>
+    <div className="filter__wrapper">
       <select
         name="category"
         value={filter}
