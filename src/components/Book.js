@@ -12,13 +12,13 @@ const Book = (
       <div className="book__wrapper_left_bottom">
         <p className="text-link ">Comments</p>
         <span className="line-border" />
-        <p
+        <a
           className="text-link"
           onKeyDown={() => handleRemoveBook(id)}
           onClick={() => handleRemoveBook(id)}
         >
           Remove
-        </p>
+        </a>
         <span className="line-border" />
         <p className="text-link ">Edit</p>
       </div>
