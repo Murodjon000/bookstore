@@ -20,5 +20,10 @@
     "import/no-unresolved": "off",
     "no-shadow": "off"
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "ignorePatterns": ["dist/", "build/"]
 }

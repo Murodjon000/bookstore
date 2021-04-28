@@ -1,0 +1,14 @@
+@mixin normal-font {
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+}
+
+@mixin select-option {
+  margin-left: 34px;
+  width: 285px;
+  padding: 13px 57px 13px 17px;
+  border-radius: 4px;
+  border: solid 1px $white-300;
+  background-color: $white;
+}

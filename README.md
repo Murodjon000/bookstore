@@ -1,11 +1,12 @@
 # Bookstore App
 
+![Bookstore](./image.png)
 
-- This is React calculator app which was built fully using JavaScript and JSX.In this app, you can do your calculations very easily and fastly.
+- This is React Bookstore app which was built fully using JavaScript and JSX.In this app, you can add and search books from bookstore very easily.
 
 ## Live Demo
 
-- [live-version](https://guarded-savannah-56728.herokuapp.com/)
+- [Bookstore](https://infinite-basin-78643.herokuapp.com/)
 
 ## Built with
 

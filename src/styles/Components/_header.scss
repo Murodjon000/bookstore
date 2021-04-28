@@ -1,0 +1,39 @@
+.header__box {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px 99px 27px 100px;
+  border-bottom: solid 1px $white-300;
+  background-color: $white;
+
+  &_innerBox > a {
+    margin-left: 41px;
+    font-family: $Montserrat;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: uppercase;
+    opacity: 0.5;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+
+  &_innerBox > h1 {
+    color: $azure;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: $Montserrat;
+  }
+
+  & > div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.user__oval {
+  border: 1px solid $white-300;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
