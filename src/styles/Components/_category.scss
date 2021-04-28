@@ -3,6 +3,7 @@
   justify-content: flex-end;
   margin-top: 40px;
   padding-right: 100px;
+
   & > select {
     @include select-option;
   }
