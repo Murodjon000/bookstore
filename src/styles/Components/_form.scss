@@ -4,12 +4,15 @@
   margin: 40px auto;
   flex-direction: column;
   flex-wrap: wrap;
+
   & > h1 {
     font-family: $Montserrat;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
+
     @include normal-font;
+
     color: $warm-grey;
   }
 
@@ -27,16 +30,20 @@
       border: solid 1px $white-300;
       background-color: $white;
     }
+
     & > select {
       @include select-option;
     }
+
     & > :last-child {
       margin-left: 34px;
       font-family: $RobotoSlab;
       padding: 12.8px 19px 14.2px 22px;
       font-size: 13px;
       font-weight: bold;
+
       @include normal-font;
+
       text-transform: uppercase;
       text-align: center;
       color: $white;
